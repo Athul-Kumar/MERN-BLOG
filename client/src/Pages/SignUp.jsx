@@ -1,11 +1,7 @@
 
 const SignUp = ()=>{
 
-    return(
-        <div>
-            Signup page is created
-        </div>
-    )
+    return <h1>Signup page is created</h1>;
 }
 
 export default SignUp

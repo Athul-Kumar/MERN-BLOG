@@ -3,10 +3,8 @@
 const Home = ()=>{
 
     return(
+        <h1>Home Page is created</h1>
 
-        <div>
-            <h1>Home Page is created</h1>
-        </div>
     )
 }
 
