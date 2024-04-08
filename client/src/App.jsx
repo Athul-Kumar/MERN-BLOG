@@ -6,6 +6,7 @@ import SignUp from "./pages/SignUp";
 import SingIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
 import Header from "./components/Header";
+import FooterComp from "./components/FooterComp";
 
 
 const App = ()=>{
@@ -21,6 +22,7 @@ const App = ()=>{
         <Route path="/sign-up" element={<SignUp/>}></Route>
         <Route path="/dashboard" element={<Dashboard/>}></Route>
       </Routes>
+      <FooterComp/>
     </BrowserRouter>
   );
 
