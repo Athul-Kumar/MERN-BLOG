@@ -29,6 +29,7 @@ app.use("/api/auth", authRoutes);
 
 
 
+
 // middleware for error handling (mainly for checking uniuq username and email)
 
 
